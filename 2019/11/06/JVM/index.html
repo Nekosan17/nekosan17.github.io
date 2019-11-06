@@ -79,12 +79,23 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="Piece of Peace">
-<meta property="og:url" content="https:&#x2F;&#x2F;github.com&#x2F;Nekosan17&#x2F;index.html">
+<meta name="description" content="How JVM works - JVM Architecture Ref: GeeksForGeeks  Overview JVM(Java Virtual Machine) acts as an run-time engine to run Java applications. JVM is the one that actually calls the main method present">
+<meta property="og:type" content="article">
+<meta property="og:title" content="JVM">
+<meta property="og:url" content="https:&#x2F;&#x2F;github.com&#x2F;Nekosan17&#x2F;2019&#x2F;11&#x2F;06&#x2F;JVM&#x2F;index.html">
 <meta property="og:site_name" content="Piece of Peace">
+<meta property="og:description" content="How JVM works - JVM Architecture Ref: GeeksForGeeks  Overview JVM(Java Virtual Machine) acts as an run-time engine to run Java applications. JVM is the one that actually calls the main method present">
 <meta property="og:locale" content="en">
+<meta property="og:image" content="f:%5CDesktop%5C%E9%9B%91%E7%89%A9%5CNotes%5CJava%5CJVM.images%5CJVM%5Cjvm-3.jpg">
+<meta property="og:image" content="f:%5CDesktop%5C%E9%9B%91%E7%89%A9%5CNotes%5CJava%5CJVM.images%5CJVM%5Cjvmclassloader-1566640342896.jpg">
+<meta property="og:image" content="f:%5CDesktop%5C%E9%9B%91%E7%89%A9%5CNotes%5CJava%5CJVM.images%5CJVM%5CJVM.jpg">
+<meta property="og:image" content="https:&#x2F;&#x2F;media.geeksforgeeks.org&#x2F;wp-content&#x2F;uploads&#x2F;jvm.jpg">
+<meta property="og:image" content="f:%5CDesktop%5C%E9%9B%91%E7%89%A9%5CNotes%5CJava%5CJVM.images%5CJVM%5Creading.jpg">
+<meta property="og:image" content="f:%5CDesktop%5C%E9%9B%91%E7%89%A9%5CNotes%5CJava%5CJVM.images%5CJVM%5Cjvm.png">
+<meta property="og:image" content="f:%5CDesktop%5C%E9%9B%91%E7%89%A9%5CNotes%5CJava%5CJVM.images%5CJVM%5Cjvm-memory-2.jpg">
+<meta property="og:updated_time" content="2019-09-11T16:45:18.856Z">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="f:%5CDesktop%5C%E9%9B%91%E7%89%A9%5CNotes%5CJava%5CJVM.images%5CJVM%5Cjvm-3.jpg">
 
 
 
@@ -114,13 +125,13 @@
 
 
 
-  <link rel="canonical" href="https://github.com/Nekosan17/"/>
+  <link rel="canonical" href="https://github.com/Nekosan17/2019/11/06/JVM/"/>
 
 
 
 
 
-  <title>Piece of Peace</title>
+  <title>JVM | Piece of Peace</title>
   
 
 
@@ -139,8 +150,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -213,9 +223,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -245,9 +255,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/11/06/JVM/" itemprop="url">JVM</a></h1>
+          <h1 class="post-title" itemprop="name headline">JVM</h1>
         
 
         <div class="post-meta">
@@ -297,9 +305,7 @@
       
 
       
-        
-          
-            <h1 id="How-JVM-works-JVM-Architecture"><a href="#How-JVM-works-JVM-Architecture" class="headerlink" title="How JVM works - JVM Architecture"></a>How JVM works - JVM Architecture</h1><blockquote>
+        <h1 id="How-JVM-works-JVM-Architecture"><a href="#How-JVM-works-JVM-Architecture" class="headerlink" title="How JVM works - JVM Architecture"></a>How JVM works - JVM Architecture</h1><blockquote>
 <p>Ref: <a href="https://www.geeksforgeeks.org/jvm-works-jvm-architecture/" target="_blank" rel="noopener">GeeksForGeeks</a></p>
 </blockquote>
 <h2 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a>Overview</h2><blockquote>
@@ -441,8 +447,6 @@
 <h2 id="Java-Native-Interface-JNI"><a href="#Java-Native-Interface-JNI" class="headerlink" title="Java Native Interface(JNI)"></a>Java Native Interface(JNI)</h2><p>It is an interface which interacts with the Native Method Libraries and provides the native libraries(C, C++) required for the execution. It enables JVM to call C/C++ libraries and to be called by C/C++ libraries which may be specific to hardware.</p>
 <h2 id="Native-Method-Libraries"><a href="#Native-Method-Libraries" class="headerlink" title="Native Method Libraries"></a>Native Method Libraries</h2><p>It is a collection of the Native Libraries(C, C++) which are required by the Execution Engine.</p>
 
-          
-        
       
     </div>
     
@@ -459,144 +463,28 @@
       
 
       
-
-      
-
       
       
-        <div class="post-eof"></div>
+
       
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://github.com/Nekosan17/2019/11/05/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Nucel Chives">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Piece of Peace">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/11/05/hello-world/" itemprop="url">Hello World</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-11-05T23:44:53+08:00">
-                2019-11-05
-              </time>
+              <a href="/2019/11/05/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
             
+          </div>
 
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -606,10 +494,11 @@
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -617,6 +506,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -637,8 +530,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -680,6 +582,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#How-JVM-works-JVM-Architecture"><span class="nav-number">1.</span> <span class="nav-text">How JVM works - JVM Architecture</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Overview"><span class="nav-number">1.1.</span> <span class="nav-text">Overview</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Class-Loader-Subsystem"><span class="nav-number">1.2.</span> <span class="nav-text">Class Loader Subsystem</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Loading"><span class="nav-number">1.2.1.</span> <span class="nav-text">Loading:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Linking"><span class="nav-number">1.2.2.</span> <span class="nav-text">Linking:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Initialization"><span class="nav-number">1.2.3.</span> <span class="nav-text">Initialization:</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JVM-Memory"><span class="nav-number">1.3.</span> <span class="nav-text">JVM Memory</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Method-area"><span class="nav-number">1.3.1.</span> <span class="nav-text">Method area:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Heap-area"><span class="nav-number">1.3.2.</span> <span class="nav-text">Heap area:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Stack-area"><span class="nav-number">1.3.3.</span> <span class="nav-text">Stack area:</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Stack-Frame-Structure"><span class="nav-number">1.3.3.1.</span> <span class="nav-text">Stack Frame Structure</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#PC-registers"><span class="nav-number">1.3.4.</span> <span class="nav-text">PC registers:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Native-method-stacks"><span class="nav-number">1.3.5.</span> <span class="nav-text">Native method stacks:</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Execution-Engine"><span class="nav-number">1.4.</span> <span class="nav-text">Execution Engine</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Java-Native-Interface-JNI"><span class="nav-number">1.5.</span> <span class="nav-text">Java Native Interface(JNI)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Native-Method-Libraries"><span class="nav-number">1.6.</span> <span class="nav-text">Native Method Libraries</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -813,6 +731,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
