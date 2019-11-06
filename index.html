@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next muse use-motion" lang="en">
+<html class="theme-next muse use-motion" lang="zh-CN">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -83,7 +83,7 @@
 <meta property="og:title" content="Piece of Peace">
 <meta property="og:url" content="https:&#x2F;&#x2F;github.com&#x2F;Nekosan17&#x2F;index.html">
 <meta property="og:site_name" content="Piece of Peace">
-<meta property="og:locale" content="en">
+<meta property="og:locale" content="zh-CN">
 <meta name="twitter:card" content="summary">
 
 
@@ -132,7 +132,7 @@
 
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
 
   
   
@@ -228,7 +228,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://github.com/Nekosan17/2019/11/06/JVM/">
+    <link itemprop="mainEntityOfPage" href="https://github.com/Nekosan17/2019/11/06/ArrayList-Vector-LinkedList/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Nucel Chives">
@@ -247,7 +247,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2019/11/06/JVM/" itemprop="url">JVM</a></h1>
+                <a class="post-title-link" href="/2019/11/06/ArrayList-Vector-LinkedList/" itemprop="url">ArrayList-Vector-LinkedList</a></h1>
         
 
         <div class="post-meta">
@@ -259,7 +259,7 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-11-06T17:06:38+08:00">
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-11-06T17:26:58+08:00">
                 2019-11-06
               </time>
             
@@ -299,138 +299,35 @@
       
         
           
-            
-          
-        
-      
-    </div>
-    
-    
-    
+            <h1 id="ArrayList-vs-Vector"><a href="#ArrayList-vs-Vector" class="headerlink" title="ArrayList vs Vector"></a>ArrayList vs Vector</h1><p>They are both implement the List interface and both use (dynamically resizable) arrays for its internal data structure, much like using an ordinary array. </p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ArrayList&lt;T&gt; al = <span class="keyword">new</span> ArrayList&lt;T&gt;();</span><br><span class="line">Vector&lt;T&gt; v = <span class="keyword">new</span> Vector&lt;T&gt;();</span><br></pre></td></tr></table></figure>
 
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://github.com/Nekosan17/2019/11/05/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Nucel Chives">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Piece of Peace">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/11/05/hello-world/" itemprop="url">Hello World</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-11-05T23:44:53+08:00">
-                2019-11-05
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+<h2 id="Major-Differences"><a href="#Major-Differences" class="headerlink" title="Major Differences:"></a>Major Differences:</h2><ol>
+<li><p>Synchronization: </p>
+<p>Vector is synchronized</p>
+<p>ArrayList is not synchronized</p>
+</li>
+<li><p>Performance:</p>
+<p>ArrayList is faster than Vector due to Vector is synchronized</p>
+</li>
+<li><p>Data Growth:</p>
+<p>ArrayList: 1 -&gt; 1.5</p>
+<p>​     Vector: 1 -&gt; 2 </p>
+</li>
+</ol>
+<h2 id="How-to-Choose"><a href="#How-to-Choose" class="headerlink" title="How to Choose"></a>How to Choose</h2><ul>
+<li>ArrayList 是非线程安全的, 而Vector 是线程安全的, 如果没有特殊需求, 最好用ArrayList 他比较快</li>
+</ul>
+<h1 id="ArrayList-vs-LinkedList"><a href="#ArrayList-vs-LinkedList" class="headerlink" title="ArrayList vs LinkedList"></a>ArrayList vs LinkedList</h1><ul>
+<li>ArrayList 是基于动态数组实现的</li>
+<li>LinkedList 是基于双重链表实现的</li>
+</ul>
+<h1 id="对比"><a href="#对比" class="headerlink" title="对比:"></a>对比:</h1><ol>
+<li>LinkedList 的插入操作要比ArrayList 快, 因为LinkedList 不需要考虑扩容和深拷贝数据到新数组等问题, 而当ArrayList 满了的时候就需要考虑, 且数据满了的时候ArrayList 的插入时间复杂度为O(n) 而LinkedList为O(1).</li>
+<li>和插入相似, LinkedList 的删除操作亦是快于ArrayList</li>
+<li>LinkedList 的内存开销比ArrayList大 ArrayList的每个索引位只存储了数据, 而LinkedList的每个结点都存储了数据和下个节点的地址</li>
+<li>LinkedList 和ArrayList 中查找一个元素都需要O(n)的时间, 而如果ArrayList是顺序存储的, 则可以使用二分查找法, 只需O(Log n)</li>
+</ol>
 
           
         
@@ -512,7 +409,7 @@
               
                 <a href="/archives/%20%7C%7C%20archive">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">1</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
